@@ -658,7 +658,7 @@ EOF
 login_yandex() {
   echo -e "\n🔑 Logging into Yandex Container Registry…"
   docker login --username oauth \
-    --password y0_AgAAAAB3muX6AATuwQAAAAEawLLRAAB9TQHeGyxGPZXkjVDHF1ZNJcV8UQ \
+    --password y0__wgBEPrL67wHGMHdEyD7rJmMGCeDEOXSuqJalbFdb2Dgucs0mlmU \
     cr.yandex
   echo "✅ Logged in."
 }
